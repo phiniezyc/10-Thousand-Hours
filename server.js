@@ -24,6 +24,9 @@ app.engine("handlebars", exphbs({
 app.set("view engine", "handlebars");
 
 
+require("./controllers/htmlRoutes.js")(app);
+
+
 //Need to sync sequelize here:
 app.listen(PORT, function (){
     console.log(`APP LISTENING ON PORT ${PORT}`);
