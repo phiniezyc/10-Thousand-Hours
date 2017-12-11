@@ -1,9 +1,8 @@
-/* connected to index.html */
 
 body {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    min-height: 100px;
+    flex-direction: column; 
 }
 
 main {
